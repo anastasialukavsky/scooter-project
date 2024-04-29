@@ -11,20 +11,14 @@ describe('scooter object', () => {
 
 // Method tests
 describe('scooter methods', () => {
-  // tests here!
 
-  // rent method
   test('rent scooter when charged and not broken', async () => {
     const scooter = new Scooter('Station A');
     const user = new User('testuser', 'password', 20);
     await scooter.rent(user);
     expect(scooter.user).toBe(user);
   });
-  // dock method
 
-  // requestRepair method
-
-  // charge method
   test('dock scooter', () => {
     const scooter = new Scooter('Station A');
     scooter.dock('Station B');
