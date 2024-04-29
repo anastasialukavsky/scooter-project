@@ -15,6 +15,9 @@ class User {
   }
 
   logout() {
+    if (!this._loggedIn) {
+      throw new Error('User is not logged in');
+    }
     this._loggedIn = false;
   }
 }
