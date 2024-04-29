@@ -95,12 +95,6 @@ class ScooterApp {
   }
 }
 
-// const newApp = new ScooterApp()
-// newApp.print()
-// newApp.registerUser('Jane', "qwerty", 24)
-// newApp.print()
-// newApp.createScooter("Station A")
-// newApp.print()
-// newApp.rentScooter(1, "Station A")
+
 
 module.exports = ScooterApp
