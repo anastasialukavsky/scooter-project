@@ -1,6 +1,8 @@
 // require the User and Scooter classes - see where they can be used in ScooterApp.js
 const User = require('../src/User')
 const Scooter = require('../src/Scooter')
+
+
 class ScooterApp {
   constructor() {
     this.stations = {
@@ -93,12 +95,12 @@ class ScooterApp {
   }
 }
 
-const newApp = new ScooterApp()
-newApp.print()
-newApp.registerUser('Jane', "qwerty", 24)
-newApp.print()
-newApp.createScooter("Station A")
-newApp.print()
+// const newApp = new ScooterApp()
+// newApp.print()
+// newApp.registerUser('Jane', "qwerty", 24)
+// newApp.print()
+// newApp.createScooter("Station A")
+// newApp.print()
 // newApp.rentScooter(1, "Station A")
 
 module.exports = ScooterApp
